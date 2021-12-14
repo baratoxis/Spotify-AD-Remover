@@ -3,7 +3,7 @@ $PSDefaultParameterValues['Stop-Process:ErrorAction'] = 'SilentlyContinue'
 
 write-host @'
 ***************** 
-Fight for what is just. Stop the Capitalistic Exploitation!
+I love Emilia!
 ***************** 
 '@
 
@@ -246,7 +246,7 @@ Write-Host 'Done.'
 
 write-host @'
 ***************** 
-Fight for what is just. Stop the Capitalistic Exploitation!
+Never mind, I love Tohru!
 ***************** 
 '@
 
