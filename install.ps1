@@ -3,13 +3,13 @@ $PSDefaultParameterValues['Stop-Process:ErrorAction'] = 'SilentlyContinue'
 
 write-host @'
 ***************** 
-I love Emilia!
+"I have no strength, but I want it all. I have no knowledge, but all I do is dream. There’s nothing I can do, but I struggle in vain!"
 ***************** 
 '@
 
 write-host @'
 ***************** 
-Author: @Barata
+Author: @Barata#1049
 ***************** 
 '@
 
@@ -30,7 +30,7 @@ if (Get-AppxPackage -Name SpotifyAB.SpotifyMusic) {
   Write-Host @'
 The Microsoft Store version of Spotify has been detected which is not supported.
 '@`n
-  $ch = Read-Host -Prompt "Uninstall Spotify Windows Store edition (Y/N) "
+  $ch = Read-Host -Prompt "Uninstall Spotify Windows Store edition (Escreve Y e mete enter)"
   if ($ch -eq 'y'){
      Write-Host @'
 Uninstalling Spotify.
@@ -57,7 +57,7 @@ try {
   exit
 }
 
-Write-Host 'Downloading latest patch (chrome_elf.zip)...'`n
+Write-Host 'Downloading latest patch...'`n
 $webClient = New-Object -TypeName System.Net.WebClient
 try {
   $webClient.DownloadFile(
@@ -105,7 +105,7 @@ Remove-Item -LiteralPath "$PWD\xpui.zip"
 $spotifyInstalled = (Test-Path -LiteralPath $SpotifyExecutable)
 $update = $false
 if ($spotifyInstalled) {
-  $ch = Read-Host -Prompt "Optional - Update Spotify to the latest version. (Might already be updated). (Y/N) "
+  $ch = Read-Host -Prompt "Optional - Update Spotify to the latest version. (Escreve Y e mete enter)"
   if ($ch -eq 'y') {
 	$update = $true
   } else {
@@ -179,7 +179,7 @@ UI isn't changed.
 }
 #>
 
-$ch = Read-Host -Prompt "Optional - Remove ad placeholder and upgrade button. (Y/N) "
+$ch = Read-Host -Prompt "Optional - Remove ad placeholder and upgrade button. (Escreve Y e mete enter) "
 if ($ch -eq 'y') {
     $xpuiBundlePath = "$SpotifyApps\xpui.spa"
     $xpuiUnpackedPath = "$SpotifyApps\xpui\xpui.js"
@@ -246,7 +246,7 @@ Write-Host 'Done.'
 
 write-host @'
 ***************** 
-Never mind, I love Tohru!
+It was rough. It was so painful. I was so scared. I was so sad. It hurt so much, I thought I’d die. I tried so hard… I tired so hard! I was so desperate, so desperate to make everything right! It’s the truth. I’ve honestly never tried so hard at anything in my life! Because I loved this place… Because it was so important to me! I was so desperate to get back. I was scared… I was so scared! I didn’t want those eyes looking at me like that again… And I hated myself so much for feeling that way!
 ***************** 
 '@
 
