@@ -3,7 +3,7 @@ $PSDefaultParameterValues['Stop-Process:ErrorAction'] = 'SilentlyContinue'
 
 write-host @'
 ***************** 
-"I have no strength, but I want it all. I have no knowledge, but all I do is dream. Theres nothing I can do, but I struggle in vain!"
+"I have no strength, but I want it all. I have no knowledge, but all I do is dream. Theres nothing I can do, but I struggle in vain!" 
 ***************** 
 '@
 
@@ -246,7 +246,7 @@ Write-Host 'Done.'
 
 write-host @'
 ***************** 
-"No matter what happens, even when it looks like youre gonna lose, when no one else believes in you, when you dont believe in your self, I will believe!"
+"No matter what happens, even when it looks like youre gonna lose, when no one else believes in you, when you dont believe in your self, I will believe! I will always love you, Emilia <3"
 ***************** 
 '@
 
